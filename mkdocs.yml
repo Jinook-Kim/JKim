@@ -1,7 +1,6 @@
 site_name: JKim
 site_url: https://jinook-kim.github.io/JKim/
 theme:
-  logo: iconj.svg
   name: material
   palette:
     scheme: slate
