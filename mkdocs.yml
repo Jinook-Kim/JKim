@@ -1,7 +1,17 @@
 site_name: JKim
 site_url: https://jkim.cc/
 theme:
+  features:
+    - content.code.copy
   name: material
   palette:
     scheme: slate
     primary: indigo
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
