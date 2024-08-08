@@ -1,6 +1,8 @@
 site_name: JKim
 site_url: https://jkim.cc/
 theme:
+  icon:
+    logo: material/alpha-j-box
   features:
     - content.code.copy
   name: material
