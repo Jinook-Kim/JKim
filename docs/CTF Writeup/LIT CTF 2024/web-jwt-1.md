@@ -10,15 +10,15 @@ You can sign up to the website.
 ![Sign Up](web-jwt-1-asset/signup.png)
 
 ## Recon
-As described in the introduction of the challenge, there is a JWT cookie.
+As described in the introduction of the challenge, there is a JWT cookie after signing in.
 ![cookie](web-jwt-1-asset/cookie.png)
 
-After doing some research , I came acrose the tool called [JWT_Tool](https://github.com/ticarpi/jwt_tool).
+After doing some research, I came across the tool called [JWT_Tool](https://github.com/ticarpi/jwt_tool).
 If I put my cookie in, it gives me all the info.
 ![info](web-jwt-1-asset/jwt_tool.png)
 
 ## Exploitation
-It seems like I need to change that `admin` value to `True`. You can do that with `-T` flag:
+It seems like I need to change that `admin` value to `True`. You can do that with the `-T` flag:
 ```bash
 python3 jwt_tool.py eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdDMzMyIsImFkbWluIjpmYWxzZX0.pexv7afakRnfXaUonh0o0Y96xPDz%2BSOsM453Mn%2F0YD -T
 ```
