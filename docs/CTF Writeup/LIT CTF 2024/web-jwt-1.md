@@ -9,6 +9,8 @@ Home Page:
 You can sign up to the website.
 ![Sign Up](web-jwt-1-asset/signup.png)
 
+However, when you click "GET FLAG", the webpage gives you "Unauthorized".
+
 ## Recon
 As described in the introduction of the challenge, there is a JWT cookie after signing in.
 ![cookie](web-jwt-1-asset/cookie.png)
